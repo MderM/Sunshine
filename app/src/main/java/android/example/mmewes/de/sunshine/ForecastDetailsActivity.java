@@ -1,5 +1,6 @@
 package android.example.mmewes.de.sunshine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
@@ -8,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class ForecastDetailsActivity extends ActionBarActivity {
 
@@ -17,7 +19,7 @@ public class ForecastDetailsActivity extends ActionBarActivity {
         setContentView(R.layout.activity_forecast_details);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
+                    .add(R.id.container, new DetailsFragment())
                     .commit();
         }
     }
@@ -45,15 +47,17 @@ public class ForecastDetailsActivity extends ActionBarActivity {
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class DetailsFragment extends Fragment {
 
-        public PlaceholderFragment() {
+        public DetailsFragment() {
         }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_forecast_details, container, false);
+            String foreCast = getActivity().getIntent().getStringExtra(Intent.EXTRA_TEXT);
+            ((TextView)rootView.findViewById(R.id.textView_forcast_details_fullTxt)).setText(foreCast);
             return rootView;
         }
     }
