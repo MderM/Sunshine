@@ -23,13 +23,15 @@ import java.util.Date;
 /**
  * Created by Chrissi&Maik on 20.07.2014.
  */
-public class ForcastTask extends AsyncTask<String, Void, ArrayList<String>> {
+public class ForecastTask extends AsyncTask<String, Void, ArrayList<String>> {
 
-    private  static final String LOG_TAG = ForcastTask.class.getSimpleName ();
+    private  static final String LOG_TAG = ForecastTask.class.getSimpleName ();
     private final ArrayAdapter<String> adapter;
+    private final boolean metrical;
 
-    public ForcastTask(ArrayAdapter<String> adapter) {
+    public ForecastTask(ArrayAdapter<String> adapter, boolean metrical) {
         this.adapter = adapter;
+        this.metrical = metrical;
     }
 
     @Override
@@ -109,7 +111,8 @@ public class ForcastTask extends AsyncTask<String, Void, ArrayList<String>> {
                 JSONObject day = jsonArray.getJSONObject(i);
                 JSONObject tmp = day.getJSONObject("temp");
                 Date date = new Date(day.getLong("dt")*1000);
-                double min = tmp.getDouble("min"), max = tmp.getDouble("max");
+                double min = this.convertIfNeeded(tmp.getDouble("min")),
+                       max = this.convertIfNeeded(tmp.getDouble("max"));
                 JSONArray weather = day.getJSONArray("weather");
                 JSONObject weatherObj = weather.getJSONObject(0);
                 String condition = weatherObj.get("main") + " - " + weatherObj.get("description");
@@ -122,6 +125,12 @@ public class ForcastTask extends AsyncTask<String, Void, ArrayList<String>> {
         }
 
         return res;
+    }
+
+    private double convertIfNeeded(double temp) {
+        if (this.metrical)return temp;
+        // convert to fahrenheit
+        return ((temp*9)/5) + 32;
     }
 
     @Override

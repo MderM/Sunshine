@@ -95,6 +95,12 @@ public class SettingsActivity extends PreferenceActivity {
 
         // In the simplified UI, fragments are not used at all and we instead
         // use the older PreferenceActivity APIs.
+
+        addPreferencesFromResource(R.xml.pref_general);
+
+        bindPreferenceSummaryToValue(findPreference(getString(R.string.location_settings_key)));
+        bindPreferenceSummaryToValue(findPreference(getString(R.string.unit_settings_key)));
+
     }
 
     /** {@inheritDoc} */
