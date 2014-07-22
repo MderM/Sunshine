@@ -2,16 +2,16 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\Chrissi&amp;Maik\Google Drive\AndroidProjects\Sunshine\app\build\intermediates\pre-dexed\debug\classes-db8547f6408ffdd9785d4ce4cc321626bf5237c9.jar"
-        jar="C:\Users\Chrissi&amp;Maik\Google Drive\AndroidProjects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
-    <item
-        dex="C:\Users\Chrissi&amp;Maik\Google Drive\AndroidProjects\Sunshine\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a99ee3f9ef92dad273255d9b3e3b4a9bbdb54d92.jar"
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a99ee3f9ef92dad273255d9b3e3b4a9bbdb54d92.jar"
         jar="C:\Program Files (x86)\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\classes-9d24af2b2a2d808cad7e6dc019254a5f4f02bf34.jar"
+        jar="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
 
 </pre-dex-items>
