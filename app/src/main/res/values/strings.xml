@@ -7,4 +7,5 @@
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_forecast_details">Forecast Details</string>
     <string name="action_map">Show location on map</string>
+    <string name="action_share">Share</string>
 </resources>
