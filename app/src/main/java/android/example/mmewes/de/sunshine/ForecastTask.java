@@ -55,7 +55,7 @@ public class ForecastTask extends AsyncTask<String, Void, ArrayList<String>> {
                     .appendQueryParameter("units", "metric")
                     .appendQueryParameter("cnt", "7")
                     .build();
-            Log.v(LOG_TAG, uri.toString());
+            //Log.v(LOG_TAG, uri.toString());
 
             // Create the request to OpenWeatherMap, and open the connection
             urlConnection = (HttpURLConnection) new URL (uri.toString()).openConnection();
@@ -101,7 +101,7 @@ public class ForecastTask extends AsyncTask<String, Void, ArrayList<String>> {
                 }
             }
         }
-        Log.v(LOG_TAG, forecastJsonStr);
+        //Log.v(LOG_TAG, forecastJsonStr);
         ArrayList<String> res = new ArrayList<String>(7);
         DateFormat df = new SimpleDateFormat("dd.MM.");
         try {
