@@ -50,8 +50,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b30919-dc34-4d16-9f60-d44c0103e02a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sunshine.iws" />
@@ -1817,7 +1815,11 @@
       <created>1406282320685</created>
       <updated>1406282320685</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Settings - Sharing the details">
+      <created>1408029880149</created>
+      <updated>1408029880149</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
