@@ -143,7 +143,7 @@
       <file leaf-file-name="WeatherDbHelper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherDbHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.295858" vertical-offset="482" max-vertical-offset="1632">
+            <state vertical-scroll-proportion="0.44642857" vertical-offset="482" max-vertical-offset="1632">
               <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1819,12 +1819,16 @@
       <created>1408029880149</created>
       <updated>1408029880149</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="DB lessons">
+      <created>1408029912068</created>
+      <updated>1408029912068</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1832,7 +1836,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2038" y="600" width="1170" height="408" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821497" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32821497" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1879,7 +1883,8 @@
     <MESSAGE value="Settings - Location Setting" />
     <MESSAGE value="Settings - Unit setting" />
     <MESSAGE value="Settings - Sharing the details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Settings - Sharing the details" />
+    <MESSAGE value="DB lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB lessons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2281,7 +2286,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherDbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.295858" vertical-offset="482" max-vertical-offset="1632">
+        <state vertical-scroll-proportion="0.44642857" vertical-offset="482" max-vertical-offset="1632">
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
