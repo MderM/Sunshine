@@ -18,6 +18,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.ExecutionException;
 
 import static android.widget.AdapterView.OnItemClickListener;
@@ -99,7 +100,8 @@ public class ForecastFragment extends Fragment {
             String locationPreference = preferences.getString(getString(R.string.location_settings_key), getString(R.string.default_location_settings_value));
             String def = getString(R.string.default_unit_settings_value);
             String unit = preferences.getString(getString(R.string.unit_settings_key), def);
-            this.data.addAll(new ForecastTask(this.adapter, unit.equals(def)).execute(locationPreference).get());
+//            this.data.addAll(new ForecastTask(this.adapter, unit.equals(def)).execute(locationPreference).get());
+            this.data.addAll(Arrays.<String>asList(new FetchWeatherTask(getActivity(), this.adapter).get()));
         } catch (InterruptedException e) {
             Log.e("forecast fragment", "interrupted", e);
         } catch (ExecutionException e) {
