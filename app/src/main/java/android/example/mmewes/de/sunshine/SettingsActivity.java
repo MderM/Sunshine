@@ -3,6 +3,7 @@ package android.example.mmewes.de.sunshine;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.example.mmewes.de.sunshine.data.WeatherContract;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -39,6 +40,10 @@ public class SettingsActivity extends PreferenceActivity {
      * shown on tablets.
      */
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
+
+    // since we use the preference change initially to populate the summary
+// field, we'll ignore that change at start of the activity
+    static boolean mBindingPreference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -144,11 +149,21 @@ public class SettingsActivity extends PreferenceActivity {
      * A preference value change listener that updates the preference's summary
      * to reflect its new value.
      */
-    private static Preference.OnPreferenceChangeListener sBindPreferenceSummaryToValueListener = new Preference.OnPreferenceChangeListener() {
+    private Preference.OnPreferenceChangeListener sBindPreferenceSummaryToValueListener = new Preference.OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object value) {
             String stringValue = value.toString();
-
+            // are we starting the preference activity?
+            if ( !mBindingPreference ) {
+                if (preference.getKey().equals(getString(R.string.location_settings_key))) {
+                    FetchWeatherTask weatherTask = new FetchWeatherTask(SettingsActivity.this);
+                    String location = value.toString();
+                    weatherTask.execute(location);
+                } else {
+                    // notify code that weather may be impacted
+                    getContentResolver().notifyChange(WeatherContract.WeatherEntry.CONTENT_URI, null);
+                }
+            }
             if (preference instanceof ListPreference) {
                 // For list preferences, look up the correct display value in
                 // the preference's 'entries' list.
@@ -201,7 +216,8 @@ public class SettingsActivity extends PreferenceActivity {
      *
      * @see #sBindPreferenceSummaryToValueListener
      */
-    private static void bindPreferenceSummaryToValue(Preference preference) {
+    private void bindPreferenceSummaryToValue(Preference preference) {
+        mBindingPreference = true;
         // Set the listener to watch for value changes.
         preference.setOnPreferenceChangeListener(sBindPreferenceSummaryToValueListener);
 
@@ -211,6 +227,7 @@ public class SettingsActivity extends PreferenceActivity {
                 PreferenceManager
                         .getDefaultSharedPreferences(preference.getContext())
                         .getString(preference.getKey(), ""));
+        mBindingPreference = false;
     }
 
     /**

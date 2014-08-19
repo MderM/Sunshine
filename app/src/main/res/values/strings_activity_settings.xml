@@ -10,7 +10,7 @@
     <string name="default_unit_settings_value">1</string>
     <string-array name="unit_values">
         <item name="fh">Fahrenheit</item>
-        <item name="metrical">Metrical</item>
+        <item name="metrical">Celsius</item>
     </string-array>
     <string-array name="unit_indices">
         <item name="0">0</item>
