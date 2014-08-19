@@ -62,6 +62,8 @@ public class TestDb extends AndroidTestCase {
                 null, // columns to filter by row groups
                 null // sort order
         ), weatherValues);
+
+        db.close();
     }
     private ContentValues getWeatherValues(long locationRowId) {
         ContentValues weatherValues = new ContentValues();
