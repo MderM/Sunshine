@@ -144,10 +144,10 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
         view = (TextView) this.rootView.findViewById(R.id.details_humidity_textView);
         view.setText(data.getString(COL_HUMIDITY));
         view = (TextView) this.rootView.findViewById(R.id.details_max_temp_textView);
-        view.setText(Utility.formatTemperature(data.getDouble(COL_WEATHER_MAX_TEMP), Utility.isMetric(getActivity())));
+        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MAX_TEMP), Utility.isMetric(getActivity())));
         shareForecast += view.getText() + "/";
         view = (TextView) this.rootView.findViewById(R.id.details_min_temp_textView);
-        view.setText(Utility.formatTemperature(data.getDouble(COL_WEATHER_MIN_TEMP), Utility.isMetric(getActivity())));
+        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MIN_TEMP), Utility.isMetric(getActivity())));
         shareForecast += view.getText();
         view = (TextView) this.rootView.findViewById(R.id.details_pressure_textView);
         view.setText(data.getString(COL_PRESSURE));
