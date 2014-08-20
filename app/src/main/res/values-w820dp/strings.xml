@@ -2,4 +2,5 @@
 <resources>
     <string name="action_map">Show location on map</string>
     <string name="action_share">Share</string>
+    <string name="format_temperature" />
 </resources>
