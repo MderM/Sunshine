@@ -17,6 +17,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -127,6 +128,8 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
         // fill the view items
         shareForecast = data.getString(COL_LOCATION_SETTING) + " - ";
         String date = data.getString(COL_DATETEXT);
+        ImageView iView = (ImageView) this.rootView.findViewById(R.id.details_icon_imageView);
+        iView.setImageResource(Utility.getArtResourceForWeatherCondition(data.getInt(COL_WEATHER_ID)));
         TextView view = (TextView) this.rootView.findViewById(R.id.details_date1_textView);
         view.setText(Utility.getFriendlyDayString(getActivity(), Utility.prepareDate(date)));
         view = (TextView) this.rootView.findViewById(R.id.details_date2_textView);

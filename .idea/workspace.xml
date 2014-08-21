@@ -63,11 +63,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b30919-dc34-4d16-9f60-d44c0103e02a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/art_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/art_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/art_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_fog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_light_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_light_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_storm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_storm.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -97,11 +173,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/test/TestProvider.java">
+      <file leaf-file-name="WeatherProvider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6001" max-vertical-offset="6137">
-              <caret line="353" column="8" selection-start-line="353" selection-start-column="8" selection-end-line="353" selection-end-column="8" />
+            <state vertical-scroll-proportion="3.7203648" vertical-offset="2346" max-vertical-offset="5219">
+              <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -110,125 +186,11 @@
       <file leaf-file-name="WeatherContract.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2975">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utility.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1396" max-vertical-offset="2873">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
-                <element signature="e#586#635#0" expanded="true" />
-                <element signature="e#653#712#0" expanded="true" />
-                <element signature="e#887#932#0" expanded="true" />
-                <element signature="e#958#1013#0" expanded="true" />
-                <element signature="e#1332#1384#0" expanded="true" />
-                <element signature="e#3118#3151#0" expanded="true" />
-                <element signature="e#3172#3333#0" expanded="true" />
-                <element signature="e#4218#4242#0" expanded="true" />
-                <element signature="e#4286#4310#0" expanded="true" />
-                <element signature="e#6129#6162#0" expanded="true" />
-                <element signature="e#6589#6625#0" expanded="true" />
+                <element signature="e#4271#4272#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="2771">
-              <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastDetailsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastDetailsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="918">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DetailsFragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21580547" vertical-offset="1643" max-vertical-offset="2703">
-              <caret line="124" column="68" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_forecast_details.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="2788">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-              <folding>
-                <element signature="e#375#410#0" expanded="true" />
-                <element signature="e#440#475#0" expanded="true" />
-                <element signature="e#503#536#0" expanded="true" />
-                <element signature="e#567#600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item_forecast.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.592592" vertical-offset="0" max-vertical-offset="952">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item_forecast_today.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast_today.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="952">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1615">
-              <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -236,8 +198,35 @@
       <file leaf-file-name="FetchWeatherTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="4726">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4947">
+              <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForecastFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="2805">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding>
+                <element signature="e#3240#3786#0" expanded="true" />
+                <element signature="e#3775#3776#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="2737">
+              <caret line="131" column="95" selection-start-line="131" selection-start-column="95" selection-end-line="131" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -1336,16 +1325,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherDBHelper.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/test/FullTestSuite.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherDbHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/test/TestDb.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/test/TestProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/FetchWeatherTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast_detailed.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings_activity_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastDetailsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast.xml" />
@@ -1353,10 +1339,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java" />
       </list>
     </option>
   </component>
@@ -1568,36 +1557,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sunshine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sunshine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1683,18 +1642,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="androidTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1719,7 +1666,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="055385ca0a668f77" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin" />
-    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java&#10;prov&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.data.WeatherProvider&#10;contr&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java&#10;key &#9;ACTION&#9;Help.KeymapReference&#10;detai&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.ForecastDetailsActivity.DetailsFragment&#10;forcast&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.ForcastTask&#10;split mode&#9;ACTION&#9;ToggleSideMode&#10;mainac&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/MainActivity.java" />
+    <property name="SearchEverywhereHistoryKey" value="ut&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java&#10;we&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java&#10;prov&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.data.WeatherProvider&#10;contr&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java&#10;key &#9;ACTION&#9;Help.KeymapReference&#10;detai&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.ForecastDetailsActivity.DetailsFragment&#10;forcast&#9;PSI&#9;JAVA://android.example.mmewes.de.sunshine.ForcastTask&#10;split mode&#9;ACTION&#9;ToggleSideMode&#10;mainac&#9;FILE&#9;file://C:/Users/mmewes/androidprojects/Sunshine/app/src/main/java/android/example/mmewes/de/sunshine/MainActivity.java" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="N5" />
@@ -1729,6 +1676,7 @@
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mmewes\androidprojects\Sunshine\app\src\main\res" />
       <recent name="C:\Users\mmewes\androidprojects\Sunshine\app\src\main\res\layout" />
       <recent name="C:\Users\Chrissi&amp;Maik\Google Drive\AndroidProjects\Sunshine\app\src\main\res\drawable-xxhdpi" />
       <recent name="C:\Users\Chrissi&amp;Maik\Google Drive\AndroidProjects\Sunshine\app\src\main\res\drawable-xhdpi" />
@@ -1737,17 +1685,17 @@
     <key name="android.template.packageName">
       <recent name="android.example.mmewes.de.sunshine" />
     </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="android.example.mmewes.de.sunshine.ForecastDetailsActivity" />
-      <recent name="" />
-      <recent name="android.example.mmewes.de.sunshine.MainActivity" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="android.example.mmewes.de.sunshine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mmewes\androidprojects\Sunshine\app\src\androidTest\java" />
       <recent name="C:\Users\mmewes\androidprojects\Sunshine\app\src\androidTest" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="android.example.mmewes.de.sunshine" />
+    <key name="android.template.parentActivityClass">
+      <recent name="android.example.mmewes.de.sunshine.ForecastDetailsActivity" />
+      <recent name="" />
+      <recent name="android.example.mmewes.de.sunshine.MainActivity" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -1803,19 +1751,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1841,6 +1776,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2051,12 +1999,16 @@
       <created>1408547767564</created>
       <updated>1408547767564</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Lesson 4 - Ende + Lesson 5 Anfang">
+      <created>1408606125605</created>
+      <updated>1408606125605</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49954996" order="7" side_tool="false" content_ui="tabs" />
@@ -2065,28 +2017,28 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2019" y="165" width="1393" height="576" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2019" y="165" width="1393" height="576" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5004501" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49908593" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.327451" sideWeight="0.49818513" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.48272553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1929" y="0" width="921" height="1163" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.48272553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1929" y="0" width="921" height="1163" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19669509" sideWeight="0.50133336" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1945629" sideWeight="0.5013477" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1988273" sideWeight="0.49733335" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19669509" sideWeight="0.4973046" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32843137" sideWeight="0.49958575" order="2" side_tool="false" content_ui="tabs" x="794" y="444" width="1065" height="655" />
       <window_info id="Documentation" active="true" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.21481876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1496" height="721" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2118,7 +2070,8 @@
     <MESSAGE value="Inserting to DB from WeatherTask" />
     <MESSAGE value="Updating UI from Database" />
     <MESSAGE value="Lesson 4 - Ende + Lesson 5 Anfang" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 - Ende + Lesson 5 Anfang" />
+    <MESSAGE value="Icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2154,84 +2107,19 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java</url>
-          <line>97</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java</url>
+          <line>83</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <option name="time" value="39" />
+      <option name="time" value="51" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63131" max-vertical-offset="122298">
-          <caret line="3763" column="71" selection-start-line="3763" selection-start-column="71" selection-end-line="3763" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/app/SharedPreferencesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="2960" max-vertical-offset="9945">
-          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/strings_activity_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/pref_general.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <caret line="4" column="12" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/forecast_details.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -2286,14 +2174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323077" vertical-offset="19266" max-vertical-offset="36346">
           <caret line="1201" column="0" selection-start-line="1201" selection-start-column="0" selection-end-line="1201" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="816">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2357,13 +2237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/content/ContentResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5765" max-vertical-offset="38726">
-          <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0-sources.jar!/android/support/v4/content/CursorLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="2" max-vertical-offset="2924">
@@ -2376,7 +2249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4813" max-vertical-offset="6375">
           <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2395,14 +2267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="4879">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings_activity_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -2415,36 +2279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3134" max-vertical-offset="4199">
           <caret line="228" column="61" selection-start-line="228" selection-start-column="61" selection-end-line="228" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/test/TestProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4937" max-vertical-offset="5865">
-          <caret line="353" column="8" selection-start-line="353" selection-start-column="8" selection-end-line="353" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/AbstractWindowedCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="3366">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/CursorWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2227">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="657" max-vertical-offset="2839">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -2467,39 +2301,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3343" max-vertical-offset="4335">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast_today.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="952">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="833">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.592592" vertical-offset="0" max-vertical-offset="952">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="952">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
@@ -2513,11 +2320,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.navigation/raw/main.nvg.xml">
+      <provider selected="true" editor-type-id="navigationeditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_clear.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/art_clear.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast_today.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.222221" vertical-offset="0" max-vertical-offset="952">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-43.444443" vertical-offset="0" max-vertical-offset="2788">
+          <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1683">
+          <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/CursorWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8833" max-vertical-offset="12478">
+          <caret line="573" column="0" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="0" />
+          <folding>
+            <element signature="e#21102#21103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/AbstractWindowedCursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="3366">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/CursorWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="2227">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#2676#2677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7197581" vertical-offset="0" max-vertical-offset="992">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state vertical-scroll-proportion="5.9254184" vertical-offset="0" max-vertical-offset="4420">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#586#635#0" expanded="true" />
             <element signature="e#653#712#0" expanded="true" />
             <element signature="e#887#932#0" expanded="true" />
@@ -2533,53 +2450,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/test/TestProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1615">
-          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+        <state vertical-scroll-proportion="1.2070016" vertical-offset="4936" max-vertical-offset="5865">
+          <caret line="353" column="8" selection-start-line="353" selection-start-column="8" selection-end-line="353" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18685" max-vertical-offset="36771">
+          <caret line="1258" column="0" selection-start-line="1258" selection-start-column="0" selection-end-line="1258" selection-end-column="0" />
+          <folding>
+            <element signature="e#39238#39239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1396" max-vertical-offset="2873">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#4271#4272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2603" max-vertical-offset="6205">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/database/sqlite/SQLiteQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5205479" vertical-offset="6836" max-vertical-offset="10659">
+          <caret line="420" column="69" selection-start-line="420" selection-start-column="69" selection-end-line="420" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/content/ContentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="19977" max-vertical-offset="38726">
+          <caret line="1242" column="21" selection-start-line="1242" selection-start-column="21" selection-end-line="1242" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/ForecastFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="669" max-vertical-offset="2771">
-          <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast_details.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6296296" vertical-offset="0" max-vertical-offset="2788">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="886" max-vertical-offset="2805">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
-            <element signature="e#375#410#0" expanded="true" />
-            <element signature="e#440#475#0" expanded="true" />
-            <element signature="e#503#536#0" expanded="true" />
-            <element signature="e#567#600#0" expanded="true" />
+            <element signature="e#3240#3786#0" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.navigation/raw/main.nvg.xml">
-      <provider selected="true" editor-type-id="navigationeditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/DetailsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21580547" vertical-offset="1643" max-vertical-offset="2703">
-          <caret line="124" column="68" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="2737">
+          <caret line="131" column="95" selection-start-line="131" selection-start-column="95" selection-end-line="131" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/FetchWeatherTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4947">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/mmewes/de/sunshine/data/WeatherProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.7203648" vertical-offset="2346" max-vertical-offset="5219">
+          <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
           <folding />
         </state>
       </provider>

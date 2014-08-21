@@ -47,7 +47,8 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
             WeatherContract.WeatherEntry.COLUMN_SHORT_DESC,
             WeatherContract.WeatherEntry.COLUMN_MAX_TEMP,
             WeatherContract.WeatherEntry.COLUMN_MIN_TEMP,
-            WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING
+            WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING,
+            WeatherContract.WeatherEntry.COLUMN_WEATHER_ID
     };
 
     // These indices are tied to FORECAST_COLUMNS.  If FORECAST_COLUMNS changes, these
@@ -58,6 +59,7 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
     public static final int COL_WEATHER_MAX_TEMP = 3;
     public static final int COL_WEATHER_MIN_TEMP = 4;
     public static final int COL_LOCATION_SETTING = 5;
+    public static final int COL_WEATHER_ICON_ID = 6;
 
     private ForecastAdapter adapter;
 
@@ -82,10 +84,7 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
                 final Cursor cursor = ((ForecastAdapter) parent.getAdapter()).getCursor();
                 String intentExtra = "";
                 cursor.moveToPosition(position);
-                intentExtra += Utility.formatDate(cursor.getString(COL_WEATHER_DATE)) + " - " +
-                        Utility.formatTemperature(getActivity(), cursor.getFloat(COL_WEATHER_MAX_TEMP), Utility.isMetric(getActivity())) + "/" +
-                        Utility.formatTemperature(getActivity(), cursor.getFloat(COL_WEATHER_MIN_TEMP), Utility.isMetric(getActivity())) + " - " +
-                        cursor.getString(COL_WEATHER_DESC);
+                intentExtra += cursor.getString(COL_WEATHER_DATE);
                 startActivity(new Intent(getActivity(),ForecastDetailsActivity.class ).putExtra(Intent.EXTRA_TEXT, intentExtra));
             }
         });
