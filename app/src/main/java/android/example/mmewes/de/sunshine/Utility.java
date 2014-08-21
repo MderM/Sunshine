@@ -40,6 +40,11 @@ public class Utility {
         return DateFormat.getDateInstance().format(date);
     }
 
+    static String prepareDate(String dateString) {
+        Date date = WeatherContract.getDateFromDb(dateString);
+        return new SimpleDateFormat(DATE_FORMAT).format(date);
+    }
+
     // Format used for storing dates in the database.  ALso used for converting those strings
 // back into date objects for comparison/processing.
     public static final String DATE_FORMAT = "yyyyMMdd";
@@ -97,10 +102,7 @@ public class Utility {
             windFormat = R.string.format_wind_mph;
             windSpeed = .621371192237334f * windSpeed;
         }
-
         // From wind direction in degrees, determine compass direction as a string (e.g NW)
-        // You know what's fun, writing really long if/else statements with tons of possible
-        // conditions.  Seriously, try it!
         String direction = "Unknown";
         if (degrees >= 337.5 || degrees < 22.5) {
             direction = "N";

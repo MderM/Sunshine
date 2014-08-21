@@ -125,34 +125,30 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
     public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
         if (!data.moveToFirst()) return;
         // fill the view items
-        TextView view = (TextView) this.rootView.findViewById(R.id.details_id_textView);
-        view.setText(data.getString(COL_WEATHER_ID));
-        view = (TextView) this.rootView.findViewById(R.id.details_location_textView);
-        view.setText(data.getString(COL_LOCATION_SETTING));
-        shareForecast = "";
-        shareForecast += view.getText() + " - ";
-        view = (TextView) this.rootView.findViewById(R.id.details_id_textView);
-        view.setText(data.getString(COL_WEATHER_ID));
-        view = (TextView) this.rootView.findViewById(R.id.details_date_textView);
-        view.setText(Utility.formatDate(data.getString(COL_DATETEXT)));
-        shareForecast += view.getText() + " - ";
-        view = (TextView) this.rootView.findViewById(R.id.details_degrees_textView);
-        view.setText(data.getString(COL_DEGREES));
+        shareForecast = data.getString(COL_LOCATION_SETTING) + " - ";
+        String date = data.getString(COL_DATETEXT);
+        TextView view = (TextView) this.rootView.findViewById(R.id.details_date1_textView);
+        view.setText(Utility.getFriendlyDayString(getActivity(), Utility.prepareDate(date)));
+        view = (TextView) this.rootView.findViewById(R.id.details_date2_textView);
+        view.setText(Utility.getFormattedMonthDay(getActivity(), Utility.prepareDate(date)));
+        shareForecast += Utility.formatDate(date) + " - ";
+        view = (TextView) this.rootView.findViewById(R.id.details_wind_textView);
+        final boolean metric = Utility.isMetric(getActivity());
+        String wind = Utility.getFormattedWind(getActivity(), data.getFloat(COL_WINDSPEED), data.getFloat(COL_DEGREES));
+        view.setText(wind);
         view = (TextView) this.rootView.findViewById(R.id.details_description_textView);
         view.setText(data.getString(COL_WEATHER_DESC));
         shareForecast += view.getText() + " - ";
         view = (TextView) this.rootView.findViewById(R.id.details_humidity_textView);
-        view.setText(data.getString(COL_HUMIDITY));
+        view.setText(data.getString(COL_HUMIDITY) + " %");
         view = (TextView) this.rootView.findViewById(R.id.details_max_temp_textView);
-        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MAX_TEMP), Utility.isMetric(getActivity())));
+        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MAX_TEMP), metric));
         shareForecast += view.getText() + "/";
         view = (TextView) this.rootView.findViewById(R.id.details_min_temp_textView);
-        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MIN_TEMP), Utility.isMetric(getActivity())));
+        view.setText(Utility.formatTemperature(getActivity(), data.getDouble(COL_WEATHER_MIN_TEMP), metric));
         shareForecast += view.getText();
         view = (TextView) this.rootView.findViewById(R.id.details_pressure_textView);
         view.setText(data.getString(COL_PRESSURE));
-        view = (TextView) this.rootView.findViewById(R.id.details_wind_textView);
-        view.setText(data.getString(COL_WINDSPEED));
     }
 
     @Override
