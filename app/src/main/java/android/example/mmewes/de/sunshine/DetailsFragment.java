@@ -20,6 +20,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Date;
+
 /**
  * A placeholder fragment containing a simple view.
  */
@@ -100,7 +102,12 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         this.rootView = inflater.inflate(R.layout.fragment_forecast_details, container, false);
-        this.queryDate = getActivity().getIntent().getStringExtra(Intent.EXTRA_TEXT);
+        final Intent intent = getActivity().getIntent();
+        if (intent != null && intent.hasExtra(Intent.EXTRA_TEXT)) {
+            this.queryDate = intent.getStringExtra(Intent.EXTRA_TEXT);
+        } else {
+            this.queryDate = WeatherContract.getDbDateString(new Date());
+        }
         return rootView;
     }
 

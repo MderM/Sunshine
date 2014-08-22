@@ -10,15 +10,23 @@ import android.view.MenuItem;
 public class ForecastDetailsActivity extends ActionBarActivity {
 
     android.support.v7.widget.ShareActionProvider shareProvider;
+    private boolean twoPaneLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forecast_details);
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new DetailsFragment())
-                    .commit();
+            if (findViewById(R.id.weather_detail_container) == null) {
+                // phone layout
+                this.twoPaneLayout = false;
+            } else {
+                this.twoPaneLayout = true;
+                // tablet two pane layout --> add details fragment
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.weather_detail_container, new DetailsFragment())
+                        .commit();
+            }
         }
     }
 

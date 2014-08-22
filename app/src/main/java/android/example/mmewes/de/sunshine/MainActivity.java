@@ -9,16 +9,26 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+    private boolean twoPaneLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new ForecastFragment())
-                    .commit();
+            if (findViewById(R.id.weather_detail_container) == null) {
+                // phone layout
+                this.twoPaneLayout = false;
+            } else {
+                this.twoPaneLayout = true;
+                // tablet two pane layout --> add details fragment
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.weather_detail_container, new DetailsFragment())
+                        .commit();
+            }
         }
     }
+
 
 
     @Override
