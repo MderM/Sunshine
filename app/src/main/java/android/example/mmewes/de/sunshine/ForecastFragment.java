@@ -82,10 +82,8 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 final Cursor cursor = ((ForecastAdapter) parent.getAdapter()).getCursor();
-                String intentExtra = "";
                 cursor.moveToPosition(position);
-                intentExtra += cursor.getString(COL_WEATHER_DATE);
-                startActivity(new Intent(getActivity(),ForecastDetailsActivity.class ).putExtra(Intent.EXTRA_TEXT, intentExtra));
+                ((Callback)getActivity()).onItemSelected(cursor.getString(COL_WEATHER_DATE));
             }
         });
         return rootView;

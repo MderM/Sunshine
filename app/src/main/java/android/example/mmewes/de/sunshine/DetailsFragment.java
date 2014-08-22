@@ -20,8 +20,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.Date;
-
 /**
  * A placeholder fragment containing a simple view.
  */
@@ -101,19 +99,13 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        this.rootView = inflater.inflate(R.layout.fragment_forecast_details, container, false);
-        final Intent intent = getActivity().getIntent();
-        if (intent != null && intent.hasExtra(Intent.EXTRA_TEXT)) {
-            this.queryDate = intent.getStringExtra(Intent.EXTRA_TEXT);
-        } else {
-            this.queryDate = WeatherContract.getDbDateString(new Date());
-        }
-        return rootView;
+        return inflater.inflate(R.layout.fragment_forecast_details, container, false);
     }
 
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
         mLocation = Utility.getPreferredLocation(getActivity());
+        this.queryDate = this.getArguments().getString(MainActivity.WEATHER_DATE);
         Uri weatherForLocationUri = WeatherContract.WeatherEntry.buildWeatherLocationWithDate(
                 mLocation, this.queryDate);
 

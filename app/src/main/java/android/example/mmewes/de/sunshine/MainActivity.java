@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements Callback {
 
     private boolean twoPaneLayout;
 
@@ -51,4 +51,21 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public static final String WEATHER_DATE = "WEATHER_DATE";
+
+    @Override
+    public void onItemSelected(String date) {
+        if (this.twoPaneLayout){
+            final DetailsFragment detailsFragment = new DetailsFragment();
+            Bundle bundle = new Bundle();
+            bundle.putString(WEATHER_DATE, date);
+            detailsFragment.setArguments(bundle);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.weather_detail_container, detailsFragment)
+                    .commit();
+        } else {
+            startActivity(new Intent(this,ForecastDetailsActivity.class ).putExtra(Intent.EXTRA_TEXT, date));
+        }
+
+    }
 }
