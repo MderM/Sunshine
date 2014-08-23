@@ -7,18 +7,28 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements Callback {
+
+    private boolean twoPaneLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new ForecastFragment())
-                    .commit();
+            if (findViewById(R.id.weather_detail_container) == null) {
+                // phone layout
+                this.twoPaneLayout = false;
+            } else {
+                this.twoPaneLayout = true;
+                // tablet two pane layout --> add details fragment
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.weather_detail_container, new DetailsFragment())
+                        .commit();
+            }
         }
     }
+
 
 
     @Override
@@ -41,4 +51,21 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public static final String WEATHER_DATE = "WEATHER_DATE";
+
+    @Override
+    public void onItemSelected(String date) {
+        if (this.twoPaneLayout){
+            final DetailsFragment detailsFragment = new DetailsFragment();
+            Bundle bundle = new Bundle();
+            bundle.putString(WEATHER_DATE, date);
+            detailsFragment.setArguments(bundle);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.weather_detail_container, detailsFragment)
+                    .commit();
+        } else {
+            startActivity(new Intent(this,ForecastDetailsActivity.class ).putExtra(Intent.EXTRA_TEXT, date));
+        }
+
+    }
 }
