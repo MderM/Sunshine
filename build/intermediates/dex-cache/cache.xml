@@ -2,16 +2,28 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a99ee3f9ef92dad273255d9b3e3b4a9bbdb54d92.jar"
-        jar="C:\Program Files (x86)\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-b4a33be0998bac3437d7cc0e8596a94d46a70c47.jar"
+        jar="C:\Program Files (x86)\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
-        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\classes-9d24af2b2a2d808cad7e6dc019254a5f4f02bf34.jar"
-        jar="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-5cb9073bb10be2987a47b3f92f5f3ed3dbcab040.jar"
+        jar="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\classes-0579be777a33b6278da971157f7d4e8d62a12ff9.jar"
+        jar="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\pre-dexed\debug\classes-9160152d52c2c42fdc68f7d471250bf5e6e451a5.jar"
+        jar="C:\Users\mmewes\androidprojects\Sunshine\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
 
 </pre-dex-items>
