@@ -5,7 +5,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.example.mmewes.de.sunshine.data.WeatherContract.LocationEntry;
-import android.example.mmewes.de.sunshine.data.WeatherDbHelper;
+import android.example.mmewes.de.sunshine.data.WeatherDBHelper;
 import android.test.AndroidTestCase;
 import android.util.Log;
 
@@ -18,8 +18,8 @@ public class TestDb extends AndroidTestCase {
     public static final String LOG_TAG = TestDb.class.getSimpleName();
 
     public void testCreateDb() throws Throwable {
-        mContext.deleteDatabase(WeatherDbHelper.DATABASE_NAME);
-        SQLiteDatabase db = new WeatherDbHelper(
+        mContext.deleteDatabase(WeatherDBHelper.DATABASE_NAME);
+        SQLiteDatabase db = new WeatherDBHelper(
                 this.mContext).getWritableDatabase();
         assertEquals(true, db.isOpen());
         db.close();
@@ -29,7 +29,7 @@ public class TestDb extends AndroidTestCase {
 
         // If there's an error in those massive SQL table creation Strings,
         // errors will be thrown here when you try to get a writable database.
-        WeatherDbHelper dbHelper = new WeatherDbHelper(mContext);
+        WeatherDBHelper dbHelper = new WeatherDBHelper(mContext);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         ContentValues values = getLocationValues();
