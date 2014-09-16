@@ -48,7 +48,7 @@ import java.util.Vector;
 public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
 
     private static final long DAY_IN_MILLIS = 1000 * 60 * 60 * 24;
-    private static final int WEATHER_NOTIFICATION_ID = 3004;
+    public static final int WEATHER_NOTIFICATION_ID = 3004;
 
     // Interval at which to sync with the weather, in milliseconds.
 // 60 seconds (1 minute) * 180 = 3 hours
