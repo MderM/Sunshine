@@ -39,6 +39,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Vector;
 
@@ -366,6 +367,25 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
         if (cVVector.size() > 0) {
             ContentValues[] cvArray = new ContentValues[cVVector.size()];
             cVVector.toArray(cvArray);
+            // delete data older than one day
+            // TODO
+            Date yesterday = new Date(System.currentTimeMillis() - DAY_IN_MILLIS);
+            Uri uri = WeatherContract.WeatherEntry.buildWeatherLocationWithDate(Utility.getPreferredLocation(getContext()), WeatherContract.getDbDateString(yesterday));
+            int deleted = getContext().getContentResolver().delete(uri, null, null);
+//            mine
+//            while (deleted > 0) {
+//                yesterday = new Date(yesterday.getTime() - DAY_IN_MILLIS);
+//                uri = WeatherContract.WeatherEntry.buildWeatherLocationWithDate(Utility.getPreferredLocation(getContext()), WeatherContract.getDbDateString(yesterday));
+//                deleted = getContext().getContentResolver().delete(uri, null, null);
+//            }
+//            theirs
+            Calendar cal = Calendar.getInstance(); //Get's a calendar object with the current time.
+            cal.add(Calendar.DATE, -1); //Signifies yesterday's date
+            String yesterdayDate = WeatherContract.getDbDateString(cal.getTime());
+            getContext().getContentResolver().delete(WeatherContract.WeatherEntry.CONTENT_URI,
+                    WeatherContract.WeatherEntry.COLUMN_DATETEXT + " <= ?",
+                    new String[] {yesterdayDate});
+            // add new weather data
             getContext().getContentResolver().bulkInsert(WeatherContract.WeatherEntry.CONTENT_URI, cvArray);
             notifyWeather();
         }
